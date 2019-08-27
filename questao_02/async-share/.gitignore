@@ -1,18 +1,4 @@
-# Maven
+/bin/
 /target/
-**/target/
-**/target/
 
-# Netbeans
-/nbproject
-nb-configuration.xml
-
-# Eclipse
-**/.settings
-**/.project
-**/.classpath
-
-# IDEA
-**/target
-.idea/**
-**/*.iml
+src/main/ifpb/*
