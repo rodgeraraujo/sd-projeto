@@ -5,6 +5,7 @@ import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
+
 public class Main {
 	
 	private static void sendAndResultMessage(String id, String text, ISender sender) throws RemoteException, InterruptedException{

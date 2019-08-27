@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/async-clientapp/async-clientapp.iml" filepath="$PROJECT_DIR$/async-clientapp/async-clientapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async-receiver-pull/async-receiver.iml" filepath="$PROJECT_DIR$/async-receiver-pull/async-receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async-sender-pull/async-sender.iml" filepath="$PROJECT_DIR$/async-sender-pull/async-sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async-serverapp/async-serverapp.iml" filepath="$PROJECT_DIR$/async-serverapp/async-serverapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/async-share/async-share.iml" filepath="$PROJECT_DIR$/async-share/async-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sd-projeto.iml" filepath="$PROJECT_DIR$/sd-projeto.iml" />
+    </modules>
+  </component>
+</project>
