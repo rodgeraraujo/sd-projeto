@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="async-receiver" />
-        <module name="async-clientapp" />
-        <module name="async-sender" />
         <module name="async-share" />
         <module name="async-serverapp" />
+        <module name="async-sender" />
+        <module name="async-receiver" />
+        <module name="async-clientapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,7 +19,7 @@
       <module name="async-sender" target="1.8" />
       <module name="async-serverapp" target="1.8" />
       <module name="async-share" target="1.5" />
-      <module name="questao_02" target="1.8" />
+      <module name="sd-projeto" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
