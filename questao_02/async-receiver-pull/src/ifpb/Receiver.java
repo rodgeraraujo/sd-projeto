@@ -1,41 +1,54 @@
 package ifpb;
 
-import java.rmi.AccessException;
-import java.rmi.NotBoundException;
-import java.rmi.RemoteException;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
-import java.rmi.server.UnicastRemoteObject;
+import com.google.common.util.concurrent.ListenableFuture;
+import ifpb.sd.share.Message;
+import ifpb.sd.share.MessageResult;
+import ifpb.sd.share.ReceiverServiceGrpc;
+import ifpb.sd.share.ServerServiceGrpc;
+import io.grpc.ManagedChannel;
+import io.grpc.ManagedChannelBuilder;
+import io.grpc.stub.StreamObserver;
 
-@SuppressWarnings("serial")
-public class Receiver extends UnicastRemoteObject implements IReceiver {
-	private final ResponseMessageRepository repository;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
+import java.util.logging.Logger;
 
-	protected Receiver(ResponseMessageRepository repository) throws RemoteException {
-		this.repository = repository;
-	}
+public class Receiver extends ReceiverServiceGrpc.ReceiverServiceImplBase {
 
-	@Override
-	public void delivery(Message msg) throws RemoteException {
-		//
-		System.out.println("Recebendo uma mensagem e tentando encaminhar para o server.");
-		//
-		Registry registry =  LocateRegistry.getRegistry("serverapp", 10992);
-		try {
-			IServerApp serverApp = (IServerApp) registry.lookup("ServerApp");
-			MessageResult result = serverApp.print(msg);
-			repository.add(result);
-		}
-		catch(NotBoundException | AccessException e){
-			throw new RuntimeException("Foi mal!!");
-		}
-		
-	}
+    private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
+    private final Executor executor = Executors.newFixedThreadPool(10);
 
-	@Override
-	public MessageResult result(String id) throws RemoteException {
-		return repository.get(id);
-	}
+    @Override
+    public void delivery(Message request, StreamObserver<MessageResult> responseObserver) {
 
-	
+        String name = "serverapp";
+
+        LOGGER.info("Recebendo nova mensagem e tentando enviar para o server");
+
+        // Cria canal de comunicaçao com o ServerApp
+        ManagedChannel channel = ManagedChannelBuilder
+                .forAddress(name, 10992)
+                .usePlaintext()
+                .build();
+
+        ifpb.sd.share.ServerServiceGrpc.ServerServiceFutureStub stub = ServerServiceGrpc.newFutureStub(channel);
+
+        ListenableFuture<MessageResult> delivery = stub.print(request);
+
+        delivery.addListener(() -> {
+
+            try {
+                MessageResult messageResult = delivery.get();
+
+                responseObserver.onNext(messageResult);
+
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+
+            responseObserver.onCompleted();
+        }, executor);
+
+    }
+
 }
