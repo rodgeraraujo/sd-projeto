@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c12e1b-0b53-4f67-8efe-8cb32870fdff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/async-clientapp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async-clientapp/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async-clientapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async-clientapp/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/a/8/a8c27fd1c6d6a756753c7bc4e439aaeaee6b142e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa7fd7b2851aaa23eb93977a6146656c9466b525" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e513a630fd0cd0a1d8d920d21fb4c1f77a08c7c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-receiver-pull/async-receiver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-sender-pull/async-sender.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-serverapp/async-serverapp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/async-share/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/async-share/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/GetResultTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/SendTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/SenderImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/repositories/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/repositories/MessageResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/repositories/SendedMessageRepository.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/async-clientapp/target/" />
@@ -46,7 +35,39 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -57,6 +78,8 @@
         <option value="$PROJECT_DIR$/async-share/pom.xml" />
         <option value="$PROJECT_DIR$/async-clientapp/pom.xml" />
         <option value="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" />
       </list>
     </option>
   </component>
@@ -107,28 +130,20 @@
             <path>
               <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="async-share" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,15 +182,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566902425984</updated>
-      <workItem from="1566902428058" duration="2702000" />
+      <workItem from="1566902428058" duration="3698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2702000" />
+    <option name="totallyTimeSpent" value="3698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -227,16 +243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/async-share/src/main/proto/MessageService.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -251,6 +257,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/GetResultTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/SenderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="80" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="11" column="80" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
