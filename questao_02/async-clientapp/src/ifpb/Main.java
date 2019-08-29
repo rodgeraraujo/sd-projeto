@@ -50,9 +50,9 @@ public class Main {
                 .usePlaintext()
                 .build();
 
-        ifpb.sd.share.SenderServiceGrpc.SenderServiceFutureStub stub = ifpb.sd.share.SenderServiceGrpc.newFutureStub(channel);
+        SenderServiceGrpc.SenderServiceFutureStub stub = SenderServiceGrpc.newFutureStub(channel);
 
-        String id = "askjdlkasjd";
+        String id = "id";
         String text = "Hello World!";
 
         for (int i = 0; i < 100; i++) {
@@ -60,15 +60,19 @@ public class Main {
             final String ix = id + "#" + i;
             final String mx = text + "#" + i;
 
-            Thread t = new Thread(() -> sendAndResultMessage(ix, mx, stub));
+            LOGGER.info("Enviando messagem " + ix + " para sender pull");
+
+            Thread thread = new Thread(() -> sendAndResultMessage(ix, mx, stub));
+
             countThread++;
-            t.start();
+            thread.start();
         }
 
         while (countThread != 0) {
             Thread.sleep(2000);
             LOGGER.info("Aguardando processar todas as mensagens (Restantes =  " + countThread + ")");
         }
+
         LOGGER.info("Finalizando processamento do Client");
     }
 
