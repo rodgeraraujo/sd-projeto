@@ -20,7 +20,7 @@ public class Main {
 		LOGGER.info("Iniciando sender receiver");
 
 		Server server = ServerBuilder
-				.forPort(10992)
+				.forPort(2224)
 				.addService(new ServerApp())
 				.build();
 

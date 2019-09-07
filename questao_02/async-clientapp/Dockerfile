@@ -7,6 +7,6 @@ COPY target/async-sender-0.0.1-SNAPSHOT-jar-with-dependencies.jar async-sender-j
 
 COPY run.sh run.sh
 
-EXPOSE 10990
+#EXPOSE 10990
 
 CMD ["sh", "run.sh"]

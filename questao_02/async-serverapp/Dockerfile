@@ -7,6 +7,6 @@ COPY target/async-receiver-0.0.1-SNAPSHOT-jar-with-dependencies.jar async-receiv
 
 COPY run.sh run.sh
 
-EXPOSE 9091
+#EXPOSE 10091
 
 CMD ["sh", "run.sh"]

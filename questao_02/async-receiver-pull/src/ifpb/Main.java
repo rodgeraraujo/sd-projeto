@@ -15,7 +15,7 @@ public class Main {
         LOGGER.info("Iniciando sender receiver");
 
         Server server = ServerBuilder
-                .forPort(10991)
+                .forPort(2223)
                 .addService(new Receiver())
                 .build();
 

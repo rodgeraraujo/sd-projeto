@@ -27,7 +27,7 @@ public class Receiver extends ReceiverServiceGrpc.ReceiverServiceImplBase {
 
         // Cria canal de comunicaçao com o ServerApp
         ManagedChannel channel = ManagedChannelBuilder
-                .forAddress(name, 10992)
+                .forAddress(name, 2224)
                 .usePlaintext()
                 .build();
 

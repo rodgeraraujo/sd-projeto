@@ -25,7 +25,7 @@ public class MessageSender extends ifpb.sd.share.SenderServiceGrpc.SenderService
         LOGGER.info("Criando canal de comunicaçao com MessageReceiver no ServerApp");
 
         ManagedChannel channel = ManagedChannelBuilder
-                .forAddress(name, 10991)
+                .forAddress(name, 2223)
                 .usePlaintext()
                 .build();
 

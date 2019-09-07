@@ -18,7 +18,7 @@ public class Main {
         LOGGER.info("Iniciando o servico MessageSender para o ClientApp");
 
         Server server = ServerBuilder
-                .forPort(10990)
+                .forPort(2222)
                 .addService((BindableService) new MessageSender())
                 .build();
 

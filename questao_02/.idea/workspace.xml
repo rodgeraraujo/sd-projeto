@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c12e1b-0b53-4f67-8efe-8cb32870fdff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a171ee46942d56ca94a74216005219935d758f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2bc833cb8341c478ac078033074e85bac5b4fff7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6022f4ba8038b2f7dea6179b3db1ef9252c2fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/666e2a1ca66256873e52c1cd096e7ed3b04b1c09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/6822152482f18014d01f583e366f9a3f610ce779" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7370064d7944fb8efd09ae50283389f14bd0d763" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/760da534cb4c9535ede25cbcedbacd9b91e885da" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99d6684b4ecda2afbbe60a2600ccb52909822b0e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9ed646bff5287a6976155c2529a1334a366b9e18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa7fd7b2851aaa23eb93977a6146656c9466b525" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b805590606435ff87cfb42e8cc32618fe28bd861" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbdfcccbd9dd1c66d8d7fc585ceb8b32514e118c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e513a630fd0cd0a1d8d920d21fb4c1f77a08c7c1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3bc53b45a2883d1c1a73d31be3e9e87d5b336f6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-clientapp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/async-clientapp/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-serverapp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/async-serverapp/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-serverapp/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/async-serverapp/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/async-share/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/async-share/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run-projects.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run-projects.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/async-clientapp/target/" />
@@ -21,16 +51,51 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="274">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,18 +118,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/async-share/pom.xml" />
         <option value="$PROJECT_DIR$/async-clientapp/pom.xml" />
-        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" />
-        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" />
-        <option value="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java" />
-        <option value="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java" />
-        <option value="$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/async-serverapp/src/ifpb/ServerApp.java" />
         <option value="$PROJECT_DIR$/async-receiver-pull/pom.xml" />
         <option value="$PROJECT_DIR$/async-sender-pull/pom.xml" />
         <option value="$PROJECT_DIR$/async-serverapp/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/async-share/pom.xml" />
+        <option value="$PROJECT_DIR$/run-projects.sh" />
+        <option value="$PROJECT_DIR$/async-clientapp/run.sh" />
+        <option value="$PROJECT_DIR$/async-serverapp/run.sh" />
+        <option value="$PROJECT_DIR$/async-clientapp/Dockerfile" />
+        <option value="$PROJECT_DIR$/async-serverapp/Dockerfile" />
+        <option value="$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java" />
+        <option value="$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java" />
+        <option value="$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java" />
       </list>
     </option>
@@ -74,11 +144,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="async-clientapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="async-share" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="async-clientapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="async-share" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -96,32 +166,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
               <item name="async-clientapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
               <item name="async-clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sd-projeto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
               <item name="async-clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-receiver-pull" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-receiver-pull" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-receiver-pull" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-sender-pull" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-serverapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-serverapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-serverapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="questao_02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="async-share" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,6 +286,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/async-share/src/main/proto" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -161,12 +314,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566902425984</updated>
-      <workItem from="1566902428058" duration="6572000" />
+      <workItem from="1566902428058" duration="7964000" />
+      <workItem from="1567058960522" duration="120000" />
+      <workItem from="1567885483520" duration="6562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6572000" />
+    <option name="totallyTimeSpent" value="14646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,36 +336,36 @@
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" weight="0.32840723" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32840723" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
-      <window_info anchor="right" id="Maven" weight="0.32954547" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32840723" />
+      <window_info anchor="bottom" id="SonarLint" order="11" weight="0.6962233" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,57 +379,8 @@
     <entry file="file://$PROJECT_DIR$/async-share/src/main/proto/MessageService.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/GetResultTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/SenderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="80" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/GetResultTask.java" />
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/SenderImpl.java" />
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Throwable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -282,26 +388,6 @@
           <folding>
             <element signature="e#3834#3835#0" expanded="true" />
             <element signature="e#3882#3883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-serverapp/src/ifpb/ServerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -334,20 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/async-share/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Runnable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -355,10 +427,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sd-projeto.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-share/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-clientapp/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-clientapp/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-serverapp/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-serverapp/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-projects.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="90" lean-forward="true" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-receiver-pull/src/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-receiver-pull/src/ifpb/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-serverapp/src/ifpb/ServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-serverapp/src/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/MessageSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/async-sender-pull/src/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/async-clientapp/src/ifpb/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="274">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -368,9 +560,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>questao_02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.api.grpc:proto-google-common-protos:1.12.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
