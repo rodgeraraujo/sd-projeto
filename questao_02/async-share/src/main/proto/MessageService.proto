@@ -18,6 +18,10 @@ message MessageResult {
     string hash = 2;
 }
 
+/*
+Cria um novo stub assíncrono para cada serviço,
+Que vao suporta todos os tipos de chamada para o serviço
+*/
 service SenderService {
     rpc sendMessage (Message) returns (MessageResult);
 }

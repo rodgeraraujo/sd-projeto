@@ -5,9 +5,6 @@ import ifpb.sd.share.MessageResult;
 import ifpb.sd.share.ServerServiceGrpc;
 import io.grpc.stub.StreamObserver;
 
-import java.math.BigInteger;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.logging.Logger;
 
 public class ServerApp extends ServerServiceGrpc.ServerServiceImplBase{
@@ -17,33 +14,24 @@ public class ServerApp extends ServerServiceGrpc.ServerServiceImplBase{
 	@Override
 	public void print(Message request, StreamObserver<MessageResult> responseObserver) {
 
-		MessageDigest msd;
-
 		try {
-			msd = MessageDigest.getInstance("MD5");
-		} catch (NoSuchAlgorithmException e) {
-			LOGGER.info("MD5 error:");
-			throw new RuntimeException(e);
-		}
-
-		byte[] bhash = msd.digest(request.getText().getBytes());
-		BigInteger bi = new BigInteger(bhash);
-
-		try {
+			// Cria a mensagem, passando um hash da mensagem recuperada na requisiçao
 			MessageResult result = MessageResult
 					.newBuilder()
 					.setId(request.getId())
-					.setHash(bi.toString(16))
+					.setHash("hash: " + request.getText().getBytes().hashCode())
 					.build();
 
 			LOGGER.info("Identificador: " + request.getId() + ", Texto: " + request.getText());
 
+			// Recebe as mensagens de um fluxo observavel de mensagens, a funçao onNext() recebe o valor do fluxo
 			responseObserver.onNext(result);
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 
+		// Recebe a notificaçao de sucesso
 		responseObserver.onCompleted();
 
 	}

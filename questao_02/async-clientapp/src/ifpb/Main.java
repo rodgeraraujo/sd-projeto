@@ -19,16 +19,19 @@ public class Main {
 
     private static void sendAndResultMessage(String id, String text, SenderServiceGrpc.SenderServiceFutureStub stub) {
 
-        ListenableFuture<MessageResult> futureResonse = stub.sendMessage(
+        // Cria e processa (send) a mensagem
+
+        ListenableFuture<MessageResult> futureResponse = stub.sendMessage(
                 Message.newBuilder()
                         .setId(id)
                         .setText(text)
                         .build()
         );
 
-        futureResonse.addListener(() -> {
+        futureResponse.addListener(() -> {
             try {
-                MessageResult messageResult = futureResonse.get();
+                // Buscar as menagens
+                MessageResult messageResult = futureResponse.get();
 
                 LOGGER.info("Resultado da mensagem com identificador: " + id + " e resultado: " + messageResult.getHash());
                 threads--;
@@ -42,16 +45,19 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
         LOGGER.info("Iniciando o o client");
 
+        // Cria canal do client na port 2222
         ManagedChannel channel = ManagedChannelBuilder
                 .forAddress("localhost", 2222)
                 .usePlaintext()
                 .build();
 
+        // Cria um novo stub para o client
         SenderServiceGrpc.SenderServiceFutureStub stub = SenderServiceGrpc.newFutureStub(channel);
 
         String id = "id";
         String text = "Hello World!";
 
+        // Loop, onde sao enviadas 100 mensagens por meio de thread
         for (int i = 0; i < 100; i++) {
 
             final String idx = id + "#" + i;
@@ -65,6 +71,7 @@ public class Main {
             thread.start();
         }
 
+        // Verifica se todas as mensagens foram processadas
         while (threads != 0) {
             Thread.sleep(2000);
             LOGGER.info("Aguardando processar todas as mensagens - restantes " + threads);

@@ -21,17 +21,16 @@ public class Receiver extends ReceiverServiceGrpc.ReceiverServiceImplBase {
     @Override
     public void delivery(Message request, StreamObserver<MessageResult> responseObserver) {
 
-        String name = "serverapp";
-
         LOGGER.info("Recebendo nova mensagem e tentando enviar para o server");
 
         // Cria canal de comunicaçao com o ServerApp
         ManagedChannel channel = ManagedChannelBuilder
-                .forAddress(name, 2224)
+                .forAddress("serverapp", 2224)
                 .usePlaintext()
                 .build();
 
-        ifpb.sd.share.ServerServiceGrpc.ServerServiceFutureStub stub = ServerServiceGrpc.newFutureStub(channel);
+        // Cria um novo stub para o receiver, o qual vai suportar chamadas de saida e entrada no serviço
+        ServerServiceGrpc.ServerServiceFutureStub stub = ServerServiceGrpc.newFutureStub(channel);
 
         ListenableFuture<MessageResult> delivery = stub.print(request);
 
@@ -40,12 +39,14 @@ public class Receiver extends ReceiverServiceGrpc.ReceiverServiceImplBase {
             try {
                 MessageResult messageResult = delivery.get();
 
+                // Recebe as mensagens de um fluxo observavel de mensagens, a funçao onNext() recebe o valor do fluxo
                 responseObserver.onNext(messageResult);
 
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
 
+            // Recebe a notificaçao de sucesso
             responseObserver.onCompleted();
         }, executor);
 
