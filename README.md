@@ -4,7 +4,7 @@ Comunicação Indireta e Assíncrona com Garantia de Entrega de Mensagem
 **1 - Limpar e construir todos os projetos**
 - Executar o seguinte comando pra entrar na pasta raiz da questão:
     ```
-    $ cd questao_02
+    $ cd questao_01
     ```
 - Executar o seguinte comando para limpar e construir projetos:
     ```
